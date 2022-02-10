@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "parcel watch assets/index.js scss/app.scss --out-dir prod/"
+    "watch": "parcel watch assets/index.js scss/app.sass --out-dir prod/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "js": "^0.1.0",
-    "sass": "^1.35.2"
+    "sass": "^1.49.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
   }
 }

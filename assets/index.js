@@ -1,3 +1,3 @@
-import "./js/app.js"
-import "./sass/style.scss"
+import "./ts/index.ts"
+import "./sass/style.sass"
 
